@@ -101,6 +101,20 @@ flowchart TD
 - Automation (scaffolded): n8n
 
 ## Run Locally
+- http://127.0.0.1:5173/
+
+## You can always go back using:
+-git restore . → undo current changes
+-git reset --hard HEAD → last saved version
+-git log + git reset → any old version
+
+-git status
+-git add README.md assets
+-git commit -m "Improve README with screenshots and banner"
+-git push
+
+-git log --oneline
+-4bbf6c6 (HEAD -> main) Initial commit - Smart Terminal project
 
 ### Prerequisites
 
