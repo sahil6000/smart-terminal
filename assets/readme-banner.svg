@@ -1,0 +1,137 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="88" y1="72" x2="1128" y2="566" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F" />
+      <stop offset="0.52" stop-color="#0F1B32" />
+      <stop offset="1" stop-color="#132A4B" />
+    </linearGradient>
+    <linearGradient id="panel" x1="688" y1="132" x2="1090" y2="478" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220" />
+      <stop offset="1" stop-color="#111C30" />
+    </linearGradient>
+    <linearGradient id="accent" x1="688" y1="130" x2="1092" y2="478" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF" />
+      <stop offset="1" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="chip" x1="96" y1="334" x2="462" y2="446" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12233E" />
+      <stop offset="1" stop-color="#162B4A" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#203252" stroke-width="1" opacity="0.45" />
+    </pattern>
+    <filter id="shadow" x="610" y="84" width="548" height="456" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dy="18" />
+      <feGaussianBlur stdDeviation="20" />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0196078 0 0 0 0 0.054902 0 0 0 0 0.109804 0 0 0 0.42 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" rx="28" fill="url(#bg)" />
+  <rect width="1200" height="630" rx="28" fill="url(#grid)" opacity="0.38" />
+  <circle cx="1073" cy="104" r="147" fill="#1D4ED8" opacity="0.14" />
+  <circle cx="950" cy="540" r="168" fill="#14B8A6" opacity="0.12" />
+  <circle cx="260" cy="118" r="120" fill="#38BDF8" opacity="0.08" />
+
+  <rect x="88" y="78" width="474" height="474" rx="28" fill="#091221" fill-opacity="0.46" stroke="#274064" />
+
+  <text x="118" y="156" fill="#8FB3D9" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2.8">
+    DESKTOP TERMINAL WORKSPACE
+  </text>
+  <text x="118" y="236" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">
+    Smart Terminal
+  </text>
+  <text x="118" y="284" fill="#C9D7EA" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">
+    Custom PC terminal emulator with tabs,
+  </text>
+  <text x="118" y="318" fill="#C9D7EA" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">
+    split views, and prompt intelligence.
+  </text>
+
+  <rect x="118" y="354" width="154" height="44" rx="22" fill="url(#chip)" stroke="#26486D" />
+  <text x="150" y="382" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">
+    Multi-tab
+  </text>
+
+  <rect x="286" y="354" width="168" height="44" rx="22" fill="url(#chip)" stroke="#26486D" />
+  <text x="320" y="382" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">
+    Split View
+  </text>
+
+  <rect x="118" y="414" width="174" height="44" rx="22" fill="url(#chip)" stroke="#26486D" />
+  <text x="150" y="442" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">
+    Live Themes
+  </text>
+
+  <rect x="306" y="414" width="208" height="44" rx="22" fill="url(#chip)" stroke="#26486D" />
+  <text x="338" y="442" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">
+    Git Prompt Context
+  </text>
+
+  <text x="118" y="514" fill="#91A7C3" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="500">
+    Electron + React + xterm.js + node-pty
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="650" y="112" width="470" height="382" rx="24" fill="url(#panel)" stroke="#284872" stroke-width="1.5" />
+    <rect x="650" y="112" width="470" height="54" rx="24" fill="#0E1729" />
+    <rect x="650" y="142" width="470" height="24" fill="#0E1729" />
+    <circle cx="688" cy="139" r="7" fill="#FB7185" />
+    <circle cx="714" cy="139" r="7" fill="#FBBF24" />
+    <circle cx="740" cy="139" r="7" fill="#34D399" />
+    <text x="782" y="145" fill="#D4DFEE" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
+      smart-terminal workspace
+    </text>
+
+    <rect x="676" y="186" width="418" height="282" rx="18" fill="#09111F" stroke="#1E3858" />
+    <rect x="698" y="208" width="150" height="36" rx="10" fill="#102039" />
+    <rect x="862" y="208" width="138" height="36" rx="10" fill="#0F2037" />
+    <rect x="1014" y="208" width="58" height="36" rx="10" fill="#102644" />
+
+    <rect x="698" y="262" width="182" height="180" rx="14" fill="#0B1525" stroke="#163451" />
+    <rect x="894" y="262" width="178" height="180" rx="14" fill="#0B1525" stroke="#163451" />
+    <rect x="886" y="262" width="4" height="180" rx="2" fill="url(#accent)" opacity="0.85" />
+
+    <text x="720" y="286" fill="#38BDF8" font-family="Cascadia Mono, Consolas, monospace" font-size="14">
+      C:\Projects\smart-terminal
+    </text>
+    <text x="720" y="314" fill="#E2E8F0" font-family="Cascadia Mono, Consolas, monospace" font-size="14">
+      user@host | main * &gt;
+    </text>
+    <text x="720" y="340" fill="#7DD3FC" font-family="Cascadia Mono, Consolas, monospace" font-size="14">
+      npm run dev
+    </text>
+    <text x="720" y="366" fill="#9FB4CC" font-family="Cascadia Mono, Consolas, monospace" font-size="13">
+      [dev] Starting renderer on http://127.0.0.1:5173
+    </text>
+    <text x="720" y="390" fill="#9FB4CC" font-family="Cascadia Mono, Consolas, monospace" font-size="13">
+      [dev] Renderer ready, launching Electron
+    </text>
+    <text x="720" y="426" fill="#34D399" font-family="Cascadia Mono, Consolas, monospace" font-size="13">
+      session connected
+    </text>
+
+    <text x="916" y="286" fill="#C5D4E7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
+      Prompt Preview
+    </text>
+    <text x="916" y="314" fill="#E2E8F0" font-family="Cascadia Mono, Consolas, monospace" font-size="13">
+      user@host | ~/repo | main *
+    </text>
+    <text x="916" y="350" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+      Theme: Dark
+    </text>
+    <text x="916" y="374" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+      Font: Cascadia Mono
+    </text>
+    <text x="916" y="398" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+      Layout: Split enabled
+    </text>
+    <rect x="916" y="420" width="124" height="10" rx="5" fill="#143451" />
+    <rect x="916" y="420" width="82" height="10" rx="5" fill="url(#accent)" />
+  </g>
+</svg>
