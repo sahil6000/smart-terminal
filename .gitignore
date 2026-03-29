@@ -6,3 +6,4 @@ build/
 .vite
 out/
 *.zip
+.smart-terminal-dev.json

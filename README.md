@@ -22,15 +22,21 @@
 
 > Smart Terminal currently focuses on the desktop shell experience. The `api/`, `db/`, `docker/`, and `n8n/` layers are already scaffolded in the repository for the next phases of the product.
 
+## Demo
+
+<p align="center">
+  <img src="./assets/demo-preview.gif" alt="Smart Terminal demo preview" width="100%" />
+</p>
+
 ## Screenshots
 
 <table>
   <tr>
     <td width="50%">
-      <img src="./assets/UI%20page.png" alt="Smart Terminal workspace UI" width="100%" />
+      <img src="./assets/main-ui.png" alt="Smart Terminal workspace UI" width="100%" />
     </td>
     <td width="50%">
-      <img src="./assets/Working%20cmd.png" alt="Smart Terminal live shell session" width="100%" />
+      <img src="./assets/live-session.png" alt="Smart Terminal live shell session" width="100%" />
     </td>
   </tr>
   <tr>
@@ -151,3 +157,7 @@ smart-terminal/
 ## Contributing
 
 This is currently a personal project, but feedback, suggestions, and ideas are welcome.
+
+## License
+
+This project is released under the MIT License. See the [LICENSE](./LICENSE) file for details.
