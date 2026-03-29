@@ -1,0 +1,23 @@
+{
+  "name": "smart-terminal",
+  "version": "1.0.0",
+  "description": "Phase 1 custom desktop terminal emulator built with Electron, React, xterm.js, and node-pty.",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build:renderer": "vite build",
+    "start": "npm run build:renderer && electron ."
+  },
+  "dependencies": {
+    "@xterm/addon-fit": "^0.11.0",
+    "@xterm/xterm": "^6.0.0",
+    "electron": "^41.0.4",
+    "node-pty": "^1.1.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^6.4.1"
+  }
+}
