@@ -123,6 +123,9 @@ flowchart TD
 - Windows is the primary target right now; on Unix-like systems the PTY layer falls back to the system shell
 
 ### Development
+<p align="center">
+  <img src="Screenshot 2026-05-31 203212.png" alt="Smart Terminal Launch CMD" width="100%" />
+</p>
 
 ```powershell
 npm install
